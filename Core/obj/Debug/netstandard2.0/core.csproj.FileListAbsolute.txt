@@ -1,0 +1,14 @@
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/bin/Debug/netstandard2.0/core.deps.json
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/bin/Debug/netstandard2.0/core.dll
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/bin/Debug/netstandard2.0/core.pdb
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/bin/Debug/netstandard2.0/core.abstractions.dll
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/bin/Debug/netstandard2.0/Model.Abstractions.dll
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/bin/Debug/netstandard2.0/core.abstractions.pdb
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/bin/Debug/netstandard2.0/Model.Abstractions.pdb
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/obj/Debug/netstandard2.0/core.csprojAssemblyReference.cache
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/obj/Debug/netstandard2.0/core.csproj.CoreCompileInputs.cache
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/obj/Debug/netstandard2.0/core.AssemblyInfoInputs.cache
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/obj/Debug/netstandard2.0/core.AssemblyInfo.cs
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/obj/Debug/netstandard2.0/core.csproj.CopyComplete
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/obj/Debug/netstandard2.0/core.dll
+/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/obj/Debug/netstandard2.0/core.pdb

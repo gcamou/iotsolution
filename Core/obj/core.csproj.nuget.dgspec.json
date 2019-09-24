@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/core.csproj": {}
+  },
+  "projects": {
+    "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core.Abstractions/core.abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core.Abstractions/core.abstractions.csproj",
+        "projectName": "core.abstractions",
+        "projectPath": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core.Abstractions/core.abstractions.csproj",
+        "packagesPath": "/Users/gcamou/.nuget/packages/",
+        "outputPath": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/gcamou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Model.Abstractions/Model.Abstractions.csproj": {
+                "projectPath": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Model.Abstractions/Model.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/core.csproj",
+        "projectName": "core",
+        "projectPath": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/core.csproj",
+        "packagesPath": "/Users/gcamou/.nuget/packages/",
+        "outputPath": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/gcamou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core.Abstractions/core.abstractions.csproj": {
+                "projectPath": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Core.Abstractions/core.abstractions.csproj"
+              },
+              "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Model.Abstractions/Model.Abstractions.csproj": {
+                "projectPath": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Model.Abstractions/Model.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Model.Abstractions/Model.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Model.Abstractions/Model.Abstractions.csproj",
+        "projectName": "Model.Abstractions",
+        "projectPath": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Model.Abstractions/Model.Abstractions.csproj",
+        "packagesPath": "/Users/gcamou/.nuget/packages/",
+        "outputPath": "/Volumes/gCamouInc/Dev/Projects/IoTSolution/Model.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/gcamou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
