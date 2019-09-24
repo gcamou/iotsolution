@@ -30,7 +30,7 @@ namespace MongoDB.GenericRepository.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<EventLogResponse>> Get(Guid id)
+        public async Task<ActionResult<EventLogResponse>> Get(string id)
         {
             var result = await _eventLogService.GetByIdAsync(id);
             return Ok(result);

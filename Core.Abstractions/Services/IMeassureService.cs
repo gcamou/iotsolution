@@ -1,8 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
 namespace Core.Abstractions.Services
 {
     using Core.Abstractions.Biz;
-    using Model.Abstractions.Entities;
-    public interface IMeassureService : IBaseService<Meassure, MeassureBiz, MeassureBiz, MeassureBiz>
+    public interface IMeassureService
     {
+        Task AddAsync(MeassureBiz meassureBiz);
+        Task<MeassureBiz> GetByIdAsync(Object id);
+        Task<IEnumerable<MeassureBiz>> GetAll();
     }
 }
