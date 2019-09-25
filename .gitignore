@@ -6,3 +6,5 @@ Model/bin/
 Model/obj/
 Model.Abstractions/bin/
 Model.Abstractions/obj/
+WebApi/bin/
+WebApi/obj/
