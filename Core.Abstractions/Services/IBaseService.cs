@@ -12,7 +12,6 @@ namespace Core.Abstractions.Services
     where TEntityUpdateBiz : IBiz
     {
         Task AddAsync(TEntityCreateBiz entityCreate);
-        Task UpdateAsync(TEntityUpdateBiz entityUpdate);
         Task<TEntityBiz> GetByIdAsync(Object id);
         Task<IEnumerable<TEntityBiz>> GetAll();
     }

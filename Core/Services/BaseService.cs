@@ -28,7 +28,7 @@ namespace Core.Services
         {
             var entity = entityCreateBiz.ToEntity<TEntityCreateBiz, TEntity>();
             _baseRepository.Add(entity);
-
+            _unitOfWork.Commit();
             return Task.CompletedTask;
         }
 

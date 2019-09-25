@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 namespace Core.Abstractions.Services
 {
     using Core.Abstractions.Biz;
-    public interface IMeassureService
+    using Model.Abstractions.Entities;
+
+    public interface IMeassureService: IBaseService<Meassure, MeassureBiz, MeassureBiz, MeassureBiz>
     {
-        Task AddAsync(MeassureBiz meassureBiz);
-        Task<MeassureBiz> GetByIdAsync(Object id);
-        Task<IEnumerable<MeassureBiz>> GetAll();
     }
 }
