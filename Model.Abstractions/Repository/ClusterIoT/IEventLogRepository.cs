@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 namespace Model.Abstractions.Repository.ClusterIoT
 {
     using Model.Abstractions.Entities;
-    public interface IEventLogRepository
+    public interface IEventLogRepository : IBaseRepository<EventLog>
     {
-        void Add(EventLog entity);
-        Task<EventLog> GetById(Object id);
-        Task<IEnumerable<EventLog>> GetAll();
     }
 }

@@ -36,13 +36,6 @@ namespace Model.Repository
             return all.ToList();
         }
 
-        public virtual void Update(TEntity obj)
-        {
-            _context.AddCommand(() => DbSet.ReplaceOneAsync(Builders<TEntity>.Filter.Eq("_id", obj.GetId()), obj));
-        }
-
-        public virtual void Remove(Guid id) => _context.AddCommand(() => DbSet.DeleteOneAsync(Builders<TEntity>.Filter.Eq("_id", id)));
-
         public void Dispose()
         {
             _context?.Dispose();

@@ -11,6 +11,5 @@ namespace Model.Abstractions.Repository
         void Add(TEntity entity);
         Task<TEntity> GetById(Object id);
         Task<IEnumerable<TEntity>> GetAll();
-        void Update(TEntity entity);
     }
 }

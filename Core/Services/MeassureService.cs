@@ -27,6 +27,8 @@ namespace Core.Services
             var entity = meassureBiz.ToEntity<MeassureBiz, Meassure>();
             _meassureRepository.Add(entity);
 
+            _unitOfWork.Commit();
+
             return Task.CompletedTask;
         }
 

@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 namespace Model.Abstractions.Repository.ClusterIoT
 {
     using Model.Abstractions.Entities;
-    public interface IMeassureRepository
+    public interface IMeassureRepository: IBaseRepository<Meassure>
     {
-        void Add(Meassure entity);
-        Task<Meassure> GetById(Object id);
-        Task<IEnumerable<Meassure>> GetAll();
     }
 }
