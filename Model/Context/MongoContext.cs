@@ -69,8 +69,7 @@ namespace Model.Context
 
         public void Dispose()
         {
-            while (Session != null && Session.IsInTransaction)
-                Thread.Sleep(TimeSpan.FromMilliseconds(100));
+            Thread.Sleep(TimeSpan.FromMilliseconds(100));
 
             GC.SuppressFinalize(this);
         }
