@@ -4,7 +4,8 @@ namespace WebApi.Model.Request
 {
     public class MeassureRequest
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
+        public int CodeId { get; set; }
         public DateTime TimeSpamp { get; set; }
         public DateTime Created { get; set; }
     }

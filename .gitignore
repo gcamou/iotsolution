@@ -8,3 +8,4 @@ Model.Abstractions/bin/
 Model.Abstractions/obj/
 WebApi/bin/
 WebApi/obj/
+WebApi/publish/

@@ -4,7 +4,8 @@ namespace Core.Abstractions.Biz
 {
     public class MeassureBiz : IBiz
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
+        public int CodeId { get; set; }
         public DateTime TimeSpamp { get; set; }
         public DateTime Created { get; set; }
     }

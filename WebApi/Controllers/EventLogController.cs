@@ -30,7 +30,7 @@ namespace MongoDB.GenericRepository.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<EventLogResponse>> Get(string id)
+        public async Task<ActionResult<EventLogResponse>> Get(Guid id)
         {
             var result = await _eventLogService.GetByIdAsync(id);
             return Ok(result);
@@ -41,7 +41,7 @@ namespace MongoDB.GenericRepository.Controllers
         {
             await _eventLogService.AddAsync(eventLogRequest.ToBiz<EventLogRequest, EventLogBiz>());
 
-            var result = await _eventLogService.GetByIdAsync(eventLogRequest.CodeId);
+            var result = await _eventLogService.GetByIdAsync(eventLogRequest.Id);
             return Ok(result);
         }
     }

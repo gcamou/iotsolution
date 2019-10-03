@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7721e956-ef1b-42fa-93df-5182737af1f9/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/iot-api-mongodb",
+    "appService.deploySubpath": "WebApi/publish"
+}
